@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Ropa Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10%;
+}
+header ul {
+  display: flex;
+  list-style-type: none;
+  column-gap: 30px;
+  font-size: 18px;
+}
+
+.profile i {
+  font-size: 25px;
+  margin-left: 30px;
+}
+.hero-buttons {
+  position: absolute;
+  bottom: 70px;
+  text-align: center;
+  left: 35%;
+}
+.hero-img {
+  background-image: url("/assets/banner-sunglass.jpg");
+  background-size: cover;
+  height: 600px;
+  background-position: center;
+  position: relative;
+}
+.hero-buttons h1 {
+  color: #ffffff;
+  margin: 10px 0;
+}
+.hero-buttons button {
+  font-family: "Ropa Sans", sans-serif;
+  padding: 15px 20px;
+  margin: 10px 7px;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: #ffffff;
+  border: 0;
+}
