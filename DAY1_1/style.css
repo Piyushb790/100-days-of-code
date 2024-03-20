@@ -111,3 +111,47 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+footer {
+  position: fixed;
+  bottom: -10px;
+  width: 100%;
+  left: -9px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #5c60a0;
+  height: 100px;
+  color: #fff;
+}
+.image-name {
+  height: 100px;
+  display: flex;
+}
+
+.image-name img {
+  width: 70px;
+}
+
+.slider {
+  width: 600px;
+}
+.play {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.play img {
+  width: 20px;
+}
+.volume,
+.volume-slider {
+  display: flex;
+
+  align-items: center;
+}
+.volume img {
+  width: 20px;
+}
+.volume-slider img {
+  width: 20px;
+}
