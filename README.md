@@ -15,3 +15,8 @@
 const cloneHeader = orignalHeader.cloneNode(true);
 document.body.appendChild(cloneHeader);</code>
 
+## Day 4
+#### learn parallax.js library by Matthew wagerfield
+
+## Day 5
+#### built hero section of application using parallax.js
