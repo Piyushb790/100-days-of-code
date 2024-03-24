@@ -22,3 +22,7 @@ document.body.appendChild(cloneHeader);</code>
 ### built hero section of application using parallax.js
 
 #### steps Matthew github [click here](https://github.com/wagerfield/parallax)
+
+## Day 6
+### learn Masonry JS library used to make beautiful grid images.
+### built a heart beating animation using transform scale & @keyframes
