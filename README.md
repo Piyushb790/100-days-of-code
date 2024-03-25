@@ -25,4 +25,8 @@ document.body.appendChild(cloneHeader);</code>
 
 ## Day 6
 ### learn Masonry JS library used to make beautiful grid images.
-### built a heart beating animation using transform scale & @keyframes
+### built a heart beating animation using transform scale & @keyframes.
+
+## Day 7
+### learn Slick carousel library and built carousel 
+### learn smooth scrolling effect using jquery
