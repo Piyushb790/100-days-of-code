@@ -30,3 +30,6 @@ document.body.appendChild(cloneHeader);</code>
 ## Day 7
 ### learn Slick carousel library and built carousel 
 ### learn smooth scrolling effect using jquery
+
+## Day 8
+### built my website responsive using mediaQueries and also built siderbar using javascript and css
