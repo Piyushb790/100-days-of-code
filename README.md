@@ -33,3 +33,6 @@ document.body.appendChild(cloneHeader);</code>
 
 ## Day 8
 ### built my website responsive using mediaQueries and also built siderbar using javascript and css
+
+## Day 9
+### built my full website responsive for tablet mobile and pc and make compatible for different browser and also optimizes a website like compression of images 
