@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+body {
+  margin: 3% 10%;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+}
+.container h1 {
+  font-family: "Young Serif", serif;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.main-img img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.preparation-time {
+  background: #fff7fc;
+  padding: 10px;
+}
+div {
+  margin: 55px 0;
+}
+div h2 {
+  color: #763f2b;
+}
+.prep {
+  color: #914f69;
+  font-size: 28px;
+}
+li::marker {
+  color: #763f2b;
+}
+div li {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #574f4d;
+}
+div li b {
+  color: #000000;
+}
+pre {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Young Serif", serif;
+}
+.nutrition span {
+  color: #914f69;
+  float: right;
+}
+.nutrition pre b {
+  color: #574f4d;
+}
+
+/** media queries*/
+
+@media only screen and (max-width: 768px) {
+  .main-img img {
+    border-radius: 0;
+  }
+  body {
+    margin: 0;
+  }
+  .container {
+    margin: 0 10%;
+  }
+}
