@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background: #f9eeff;
+  position: relative;
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+.background {
+  background: url("./assets/images/background-pattern-desktop.svg");
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+}
+.container {
+  margin: 3% auto;
+  padding: 10px 30px;
+  background: #ffffff;
+  width: 50%;
+  border-radius: 25px;
+}
+.container h1 {
+  font-size: 50px;
+}
+.container h1::before {
+  content: url("./assets/images/icon-star.svg");
+  width: 35px;
+  height: 35px;
+  position: relative;
+  top: 5px;
+  margin-right: 18px;
+}
+.accordian {
+  background: #f9eeff;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 1px 1px 3px #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.minus {
+  display: none;
+}
+.plus {
+  transition: 0.3s;
+}
+.minus {
+  transition: 0.3s;
+}
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.answer.active {
+  max-height: 150px;
+}
+
+/** media queries*/
+@media only screen and (max-width: 768px) {
+  .question h3 {
+    font-size: 13px;
+    max-width: 220px;
+  }
+  .answer p {
+    font-size: 11px;
+    max-width: 250px;
+  }
+}
