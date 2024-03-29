@@ -39,3 +39,6 @@ document.body.appendChild(cloneHeader);</code>
 
 ## Day 10
 ### built a receipe page, assigned by frontend mentor challenge deploy 👉 [deploy](https://receipepage.netlify.app/)
+
+## Day 11
+### built a accordian using javascript , assigned by frontend mentor challenge deploy 👉 [deploy](https://jsaccordian.netlify.app/)
