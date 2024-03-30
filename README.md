@@ -42,3 +42,6 @@ document.body.appendChild(cloneHeader);</code>
 
 ## Day 11
 ### built a accordian using javascript , assigned by frontend mentor challenge deploy 👉 [deploy](https://jsaccordian.netlify.app/)
+
+## Day 12
+### built a email validation form using javascript and on submit it should show success message
