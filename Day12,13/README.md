@@ -2,6 +2,10 @@
 
 ![Design preview for the Newsletter sign-up form with success message coding challenge](./design/desktop-preview.jpg)
 
+# Responsive
+![image](https://github.com/Piyushb790/100-days-of-code/assets/91689824/198d2767-b6f4-4f3c-92bc-d4e4edfb33d7)
+
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
