@@ -55,3 +55,6 @@ document.body.appendChild(cloneHeader);</code>
 
 ## Day 15
 ### working on age calculator challenge given by frontend mentor
+
+## Day 16
+### added error if input is wrong to age calculator and build it fully responsive [deploy](https://agecalculatorcacli.netlify.app/)
