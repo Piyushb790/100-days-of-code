@@ -61,3 +61,6 @@ document.body.appendChild(cloneHeader);</code>
 
 ## Day 17
 ### building notification page using html css javascript still working on it and also learning bootstrap css for building this
+
+## Day 18
+### built notification page but not completed responsive part 
