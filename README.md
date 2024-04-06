@@ -57,10 +57,13 @@ document.body.appendChild(cloneHeader);</code>
 ### working on age calculator challenge given by frontend mentor
 
 ## Day 16
-### added error if input is wrong to age calculator and build it fully responsive [deploy](https://agecalculatorcacli.netlify.app/)
+### added error if input is wrong to age calculator and build it fully responsive 👉 [deploy](https://agecalculatorcacli.netlify.app/)
 
 ## Day 17
 ### building notification page using html css javascript still working on it and also learning bootstrap css for building this
 
 ## Day 18
 ### built notification page but not completed responsive part 
+
+## Day 19
+### finally completed notifications page responsiveness and deployed it. 👉 [deploy](https://linkedinnotification.netlify.app/)
