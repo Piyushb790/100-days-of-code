@@ -71,3 +71,6 @@ document.body.appendChild(cloneHeader);</code>
 
 ## Day 20
 ### built a homepage drop-down menu on click of a button using html css js challenge by FrontEnd mentor, still working on it.
+
+## Day 21
+### still building homepage drop-down built its functionality part only responsiveness is pending.
