@@ -2,6 +2,9 @@
 
 ![Design preview for the Intro section with dropdown navigation coding challenge](./design/desktop-preview.jpg)
 
+# Responsive
+![image](https://github.com/Piyushb790/100-days-of-code/assets/91689824/5b4500f2-d18a-4946-9068-31af836538c3)
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
