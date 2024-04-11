@@ -77,3 +77,6 @@ document.body.appendChild(cloneHeader);</code>
 
 ## DAY 22 
 ### finally build homepage dropdown fully responsive and function properly 👉[deploy](https://introdropdownmenu.netlify.app/)
+
+## Day 23 & 24
+### working on credit card details validator using html css javascript
