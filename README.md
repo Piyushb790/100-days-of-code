@@ -80,3 +80,9 @@ document.body.appendChild(cloneHeader);</code>
 
 ## Day 23 & 24
 ### working on credit card details validator using html css javascript
+
+## Day 25,26,27,28,29
+### didn't do well
+
+## Day 30 , 31
+### again started working on credit card details validator and finally built it 
