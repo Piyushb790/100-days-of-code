@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <title>Frontend Mentor | Interactive card details form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="card-image">
+    <div class="front-img-container">
+      <img src="./images/bg-card-front.png" alt="bg-card-front" class="front-image" />
+      <div class="front-image-details">
+        <div class="col-1">
+          <div class="circle"></div>
+          <div class="outline-circle"></div>
+        </div>
+        <div class="col-2">
+          <p id="card-img-number" oninput="update()">0000 0000 0000 0000</p>
+        </div>
+        <div class="col-3">
+          <p id="card-img-name">Jane Appleseed</p>
+          <p class="year-month">
+            <span id="card-img-cvv-month">00</span> /
+            <span id="card-img-cvv-year">00</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="back-image">
+      <img src="./images/bg-card-back.png" alt="back" class="back-img-cvv" />
+      <p id="card-cvv-img">000</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="left-container">
+      <img src="./images/bg-main-desktop.png" alt="bg-dekstop" class="bg-desktop" />
+      <img src="./images/bg-main-mobile.png" alt="bg-mobile" class="bg-mobile" />
+    </div>
+    <div class="right-container">
+      <div class="form-container">
+        <form id="card-details">
+          <label for="cardholder Name">CARDHOLDER NAME</label>
+          <input type="text" id="inp-card-name" placeholder="e.g Jane Appleseed" maxlength="20" />
+          <p class="name-error error">! Wrong format ! only alphabet</p>
+          <label for="card number Name">CARD Number</label>
+          <input type="text" id="inp-card-number" placeholder="e.g 1234 5678 9123 0000" maxlength="19" />
+          <p class="number-error error">! Wrong format ! only number</p>
+          <div class="expiry-label">
+            <label for="exp-month">EXP. DATE (MM/YY)</label>
+            <label for="CVV">CVV</label>
+          </div>
+          <div class="expiry-container">
+            <div class="expiry-date">
+              <input type="text" placeholder="MM" id="month" maxlength="2" />
+              <input type="text" placeholder="YY" id="year" maxlength="2" />
+            </div>
+            <div class="expiry-cvv">
+              <input type="text" placeholder="e.g 123" id="cvv" maxlength="3" />
+            </div>
+          </div>
+          <div class="expiry-validity">
+            <span class="month-error error">can't be blank and less than 13
+            </span>
+            <span class="year-error error">can't be blank </span>
+            <span class="cvv-error error">can't be blank </span>
+          </div>
+          <div class="btn">
+            <input type="submit" value="Confirm" id="confirm-btn" />
+          </div>
+        </form>
+      </div>
+      <div class="loader"></div>
+      <div class="success-container">
+        <img src="./images/icon-complete.svg" alt="success-img" />
+        <h1>THANK YOU!</h1>
+        <p>We've added your card details</p>
+        <button class="continue-btn">Continue</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

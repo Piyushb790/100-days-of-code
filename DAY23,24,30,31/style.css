@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Teko:wght@300..700&display=swap");
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+}
+
+.left-container img {
+  height: 100vh;
+}
+.bg-mobile {
+  display: none;
+}
+
+.right-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  box-sizing: border-box;
+  width: 30%;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+}
+
+input {
+  width: 100%;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 18px;
+  border: 2px solid black;
+}
+
+.expiry-label {
+  display: flex;
+  column-gap: 28%;
+}
+
+.expiry-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.expiry-date {
+  column-gap: 10px;
+  display: flex;
+  width: 50%;
+}
+
+.expiry-cvv {
+  width: 50%;
+}
+
+.btn {
+  margin-top: 26px;
+}
+
+.btn input {
+  background: #000000;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.card-image {
+  position: absolute;
+  top: 15%;
+  left: 6%;
+}
+
+.back-image {
+  position: relative;
+  left: 30%;
+  top: 26px;
+}
+
+.front-image {
+  position: relative;
+  /* width: 100%; */
+}
+
+.front-image-details {
+  position: absolute;
+  top: 0;
+  color: #ffffff;
+  height: 100%;
+  width: 100%;
+}
+
+.col-1 {
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.outline-circle {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  margin-left: 15px;
+}
+
+.front-image-details {
+  padding: 15px;
+}
+
+.col-2 {
+  margin-top: 20%;
+}
+
+.col-2 p {
+  font-size: 30px;
+}
+
+.col-3 {
+  margin-top: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.back-img-cvv {
+  position: relative;
+}
+
+#card-cvv-img {
+  position: absolute;
+  color: #ffffff;
+  top: 43%;
+  right: 15%;
+}
+
+/** before and after */
+
+.error {
+  color: red;
+  font-size: 14px;
+  font-family: Georgia;
+  margin-top: 5px;
+}
+
+.name-error {
+  display: none;
+}
+
+.number-error {
+  display: none;
+}
+
+.expiry-validity {
+  position: relative;
+
+  height: 35px;
+}
+
+.month-error {
+  display: none;
+  width: 24%;
+  position: absolute;
+  top: 0;
+}
+
+.year-error {
+  display: none;
+  width: 24%;
+  position: absolute;
+  top: 0;
+  left: 26%;
+}
+
+.cvv-error {
+  display: none;
+  width: 34%;
+  position: absolute;
+  top: 0;
+  left: 52%;
+}
+
+/**success */
+.success-container {
+  text-align: center;
+  width: 30%;
+  display: none;
+}
+
+.continue-btn {
+  font-size: 20px;
+  background: #000000;
+  color: #ffffff;
+  padding: 7px 25px;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/** spinner */
+.loader {
+  display: none;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  margin-top: -60px;
+  margin-left: -60px;
+  z-index: 1000;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    flex-direction: column;
+  }
+  .bg-desktop {
+    display: none;
+  }
+  .bg-mobile {
+    display: block;
+    width: 100%;
+  }
+  .form-container {
+    position: absolute;
+    bottom: 5%;
+    background: #ffffff;
+    padding: 50px;
+    width: 80%;
+    height: 55vh;
+  }
+  .front-image {
+    position: relative;
+    top: 70px;
+    left: 50px;
+    z-index: 9;
+    width: 75%;
+  }
+  .back-image {
+    width: 70%;
+    top: -220px;
+    left: 100px;
+  }
+  .back-img-cvv {
+    width: 100%;
+  }
+  .front-image-details {
+    z-index: 10;
+    top: 0%;
+    left: 45px;
+  }
+  .col-3 {
+    justify-content: start;
+  }
+  .year-month {
+    margin-left: 40%;
+  }
+  .col-2 {
+    margin-top: 20px;
+  }
+  .col-2 p {
+    font-size: 25px;
+  }
+  .col-1 {
+    margin-top: 18%;
+  }
+  #card-cvv-img {
+    margin-top: -5px;
+  }
+  .success-container {
+    position: absolute;
+    bottom: 10%;
+    background: #ffffff;
+    padding: 100px 20px;
+    width: 80%;
+  }
+}
