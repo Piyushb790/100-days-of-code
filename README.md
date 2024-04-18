@@ -86,3 +86,6 @@ document.body.appendChild(cloneHeader);</code>
 
 ## Day 30 , 31
 ### again started working on credit card details validator and finally built it 👉 [deploy](https://creditcardvalidatorjs.netlify.app/)
+
+## Day 31
+### built expense chart tracker challenge by frontend mentor built it fully responsive and deployed it 👉 [deploy](https://expensechart-tracker.netlify.app/)
