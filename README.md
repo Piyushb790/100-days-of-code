@@ -85,4 +85,4 @@ document.body.appendChild(cloneHeader);</code>
 ### didn't do well
 
 ## Day 30 , 31
-### again started working on credit card details validator and finally built it 
+### again started working on credit card details validator and finally built it 👉 [deploy](https://creditcardvalidatorjs.netlify.app/)
