@@ -89,3 +89,6 @@ document.body.appendChild(cloneHeader);</code>
 
 ## Day 31
 ### built expense chart tracker challenge by frontend mentor built it fully responsive and deployed it 👉 [deploy](https://expensechart-tracker.netlify.app/)
+
+## Day 32
+### firstly learn CSS Grid the build a mobile responsive website using CSS GRID and also deployed it 👉 [deploy](https://cssgridclass.netlify.app/)
