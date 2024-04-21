@@ -92,3 +92,6 @@ document.body.appendChild(cloneHeader);</code>
 
 ## Day 32
 ### firstly learn CSS Grid the build a mobile responsive website using CSS GRID and also deployed it 👉 [deploy](https://cssgridclass.netlify.app/)
+
+## day 33 34
+## working on ecommerce cart project, building using grid
