@@ -98,4 +98,5 @@ document.body.appendChild(cloneHeader);</code>
 
 ## day 35 36
 ## finally built ecommerce cart project, mobile reponsive using javascript, HTML, CSS 
-### features in this ecommerce project we can increase and decrease the quantity of the item and item should not be less than 0 and it also total of the cart items
+### features in this ecommerce project we can increase and decrease the quantity of the item and item should not be less than 0 and it also total of the cart items 
+### 👉[deploy](https://shoesecommercecartpage.netlify.app/)
