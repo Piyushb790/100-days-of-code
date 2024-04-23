@@ -1,0 +1,129 @@
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0;
+    border: 1px solid #000;
+  }
+  header {
+    padding: 20px;
+  }
+  header::after {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  aside {
+    display: block;
+    width: 50%;
+    padding: 35px;
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    height: 160%;
+    transition: 0.7s;
+    transform: translateX(-100%);
+  }
+  aside.active {
+    transform: translateX(0);
+  }
+  .res-close {
+    margin-bottom: 30px;
+  }
+  .menu ul li {
+    list-style-type: none;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+  main {
+    padding: 0;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 5%;
+  }
+
+  .left-top {
+    position: relative;
+  }
+  .main-img {
+    border-radius: 0;
+    width: auto;
+    height: auto;
+  }
+  .left-bottom {
+    display: none;
+  }
+  .right-section {
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    grid-template-rows: 10% 18% 20% 10% 0%;
+    grid-template-columns: 100%;
+  }
+
+  .right-section h1 {
+    align-self: self-start;
+    width: 100%;
+  }
+  .right-section p:nth-child(3) {
+    width: 100%;
+  }
+  .quantity-container {
+    grid-template-columns: 100%;
+  }
+  .quantity {
+    grid-template-columns: 5% 5% 5%;
+    justify-content: space-between;
+    background: var(--LightGrayishBlue);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  #add {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  .modal-container {
+    visibility: hidden;
+    display: none;
+  }
+  .listing-price {
+    text-align: right;
+    margin-top: -26px;
+  }
+
+  .button-container {
+    display: block;
+    position: absolute;
+    top: 36%;
+    transform: translateY(50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 300px;
+  }
+
+  .left-btn,
+  .right-btn {
+    position: relative;
+    background: #ffffff;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+  .left-btn img,
+  .right-btn img {
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  .quantity-label {
+    right: 23%;
+    top: 28px;
+  }
+}
