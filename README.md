@@ -104,3 +104,6 @@ document.body.appendChild(cloneHeader);</code>
 
 ## day 37 38
 ## started learning react and learn props and useEffect hook in react and also built tic tac toe project
+
+## day 39 40 41 42 43 44 45 46
+### didn't do well and also went for trekking 
